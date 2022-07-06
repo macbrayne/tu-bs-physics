@@ -2,7 +2,7 @@
 
 from sympy import *
 
-def calculate_errors(f, error_vars = None, prefix = '___'):    
+def calculate_errors(f, error_vars = None, prefix = '\\Delta '):    
     if error_vars == None:
         error_vars = f.free_symbols
     result = None
